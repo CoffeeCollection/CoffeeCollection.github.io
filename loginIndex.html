@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="files/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:opsz@8..144&display=swap" rel="stylesheet">
+    <title>Log In</title>
+</head>
+
+
+<body>
+	<div id="navbar">
+		<ul class="navbutton-container">
+			<a href="homepageIndex.html">Home</a>
+			<a href="loginIndex.html">Log In</a>
+			<a href="contactIndex.html">Contact Us</a>
+		</ul>
+	</div>
+
+	
+	<form id="login-form" action="homepageIndex.html" method="post">
+		<div id="formdiv" class="container">
+			<label for="uname"><b>Username</b></label>
+			<input type="text" placeholder="Enter Username" name="uname" required>
+
+			<label for="psw"><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="psw" required>
+			
+			<div class="dropdown">
+				<p id="forgot">Forgot password?</p>
+				<div class="dropdown-content">
+					<img src="./assets/forgot.jpg"></img> 
+				</div>
+			</div> 
+
+			<button class="loginbutton" id="submit">Login</button>
+			<label>
+			  <input type="checkbox" checked="checked" name="remember"> Remember me
+			</label>
+		</div>
+
+		<div class="container" style="background-color:#f1f1f1">
+			<a href="homepageIndex.html"><button class="loginbutton" id="cancelbtn" type="button">Cancel</button></a>
+		</div>
+	</form> 
+	
+	<div id="botbar">
+			<p>All rights reserved by Brian Chan©™, copyright by me©™, trademark, etc.</p>
+		</ul>
+	</div>	
+	
+</body>
+<script src="files/script.js"></script>
+</html>

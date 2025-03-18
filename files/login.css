@@ -1,0 +1,169 @@
+body {
+	margin-top: 80px;
+	margin-right: auto;
+	margin-left: auto;  
+	max-width: 1200px;
+    font-family: 'Readex Pro', sans-serif;
+	text-align: center;
+	background-image: url(../assets/bg.png);
+	background-repeat: no-repeat;	
+	background-attachment: fixed;
+	background-position: center; 	
+}
+
+#navbar {
+	height: 80px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background-image: url(../assets/nav.png);
+
+}
+
+.navbutton-container{
+	height: 80px;
+	margin-top: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.navbutton-container a{
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+	background-color: rgb(66,66,66,.5);
+	padding: 8px;
+	box-shadow: 1px 1px 1px gray;
+	z-index: 1;
+	`: relative;
+	flex: 1;
+	display:flex;
+	justify-content: center;
+	align-items: center
+}
+
+#botbar {
+	color:red;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom:0;
+    background-color: rgb(64,64,64);
+}
+
+.sidebar {
+	height: 100%; 
+	width: 0; 
+	position: fixed; 
+	z-index: 1; 
+	top: 0;
+	left: 0;
+	background-image: url(../assets/side.png);
+	overflow-x: hidden; 
+	padding-top: 60px; 
+	transition: 0.5s; 
+}
+
+.sidebar a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+}
+
+#sidebutton {
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #111;
+	color: white;
+	padding: 40px 15px;
+	border-top: 4px solid red;
+	border-bottom: 4px solid red;
+	border-right: none;
+	border-left: none;
+	position:fixed;
+	top: 50%;
+	left: 0;
+	transition: 0.5s; 
+}
+
+#sidebutton:hover {
+	background-color: #444;
+}
+
+
+ /* Bordered form */
+#login-form {
+	border: 40px solid #f1f1f1;
+	background-color: white;
+	width: 600px;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+ }
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.loginbutton {
+	background-color: lightblue;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+.loginbutton:hover {
+	opacity: 0.8;
+}
+
+#cancelbtn {
+  width: auto;
+  margin-left: 0;
+  background-color: orange;
+}
+
+.container {
+  padding: 16px;
+}
+
+.dropdown{
+}
+
+#forgot{
+	font-size:10px;
+}
+
+.dropdown-content {
+	margin:auto;
+	display: none;
+	position: absolute;
+	right:0%;
+	top:0%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#formdiv{
+	align-items: flex-start;
+	flex-wrap:wrap;
+	display:flex;
+	
+}
